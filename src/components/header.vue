@@ -40,6 +40,8 @@ export default {
   background: red;
   width: 100%;
   height: 80px;
+  position: relative;
+  z-index: 10;
 }
 .nav {
   max-width: 1200px;

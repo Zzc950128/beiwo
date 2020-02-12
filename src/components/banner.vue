@@ -16,6 +16,10 @@ export default {
 
 <style scoped>
 .banner {
-	min-width: 1200px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+	  min-width: 1200px;
 }
 </style>

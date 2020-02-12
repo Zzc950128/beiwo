@@ -6,7 +6,7 @@ import payRead from '@/page/payRead'
 import freeRead from '@/page/freeRead'
 import internationRead from '@/page/internationRead'
 import price from '@/page/price'
-import costom from '@/page/costom'
+import custom from '@/page/custom'
 import join from '@/page/join'
 import document from '@/page/document'
 import about from '@/page/about'
@@ -61,9 +61,9 @@ export default new Router({
       title: '价格',
     }
   }, {
-    path: '/costom',
-    name: 'costom',
-    component: costom,
+    path: '/custom',
+    name: 'custom',
+    component: custom,
     meta: {
       title: '定制',
     }
